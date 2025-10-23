@@ -9,7 +9,7 @@ namespace Labb_1___OOP
     internal class Circle
     {
         private float _pi = 3.141f;
-        int Radius;
+        int Radius; 
         public Circle(int radie)
         {
             Radius = radie;
