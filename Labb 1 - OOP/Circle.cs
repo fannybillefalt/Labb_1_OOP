@@ -8,13 +8,17 @@ namespace Labb_1___OOP
 {
     internal class Circle
     {
+        // fields
         private float _pi = 3.141f;
         int Radius; 
+
+        //constructor
         public Circle(int radie)
         {
             Radius = radie;
         }
 
+        //methods
         public float GetArea()
         {
             float circleArea = Radius * Radius * _pi;
